@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment landing Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <!-- Logo -->
+            <div class="nav-logo">
+            <div class="logo-circle">
+              <span class="logo-text">S</span>
+            </div>
+          </div>
+
+            <!-- Desktop Navigation -->
+            <div class="nav-links">
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+                <a href="#">Help</a>
+                <a href="#">Blog</a>
+                <a href="#">About Us</a>
+            </div>
+
+            <!-- Desktop Auth Buttons -->
+            <div class="nav-buttons">
+                <button class="btn btn-outline">Log In</button>
+                <button class="btn btn-primary">Sign Up</button>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Help</a>
+            <a href="#">Blog</a>
+            <a href="#">About Us</a>
+            <hr>
+            <button class="btn btn-outline" style="width: 100%;">Log In</button>
+            <button class="btn btn-primary" style="width: 100%;">Sign Up</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <div class="content-wrapper">
+                <!-- Left Content -->
+                <div class="left-content">
+                    <p class="subtitle">START SAVING MONEY</p>
+                    <h1 class="title">Smart Credit Card<br>For Your Daily Life.</h1>
+                    <a href="#" class="download-btn">
+                        <span>⬇</span>
+                        <span>Download</span>
+                    </a>
+                </div>
+
+                <!-- Right Content - Phone Mockup -->
+                <div class="phone-container">
+                    <div class="phone">
+                        <div class="phone-frame">
+                            <!-- Status Bar -->
+                            <div class="status-bar">
+                                <span>9:41</span>
+                                <div class="status-icons">
+                                    <div class="status-icon"></div>
+                                    <div class="status-icon" style="width: 4px;"></div>
+                                    <div class="status-icon"></div>
+                                </div>
+                            </div>
+
+                            <!-- Welcome Section -->
+                            <div class="welcome-section">
+                                <h2 class="welcome-title">Welcome Joy</h2>
+                                <div class="welcome-line"></div>
+                            </div>
+
+                            <!-- Credit Cards -->
+                            <div class="cards-section">
+                                <div class="card card-purple">
+                                    <div class="card-header">
+                                        <div>
+                                            <p class="card-balance-label">Balance</p>
+                                            <p class="card-balance">$12,832</p>
+                                        </div>
+                                        <div class="card-chip"></div>
+                                    </div>
+                                    <p class="card-number">**** **** **** 3456</p>
+                                </div>
+
+                                <div class="card card-white">
+                                    <div class="card-header">
+                                        <div>
+                                            <p class="card-balance-label">Balance</p>
+                                            <p class="card-balance">$1,329</p>
+                                        </div>
+                                        <div class="card-chip"></div>
+                                    </div>
+                                    <p class="card-number">**** **** **** 7898</p>
+                                </div>
+                            </div>
+
+                            <!-- Quick Actions -->
+                            <div class="actions-section">
+                                <button class="action-btn">Send</button>
+                                <button class="action-btn secondary">Request</button>
+                            </div>
+
+                            <!-- Transaction History -->
+                            <div class="history-section">
+                                <h3 class="history-title">History</h3>
+                                
+                                <div class="transaction">
+                                    <div class="transaction-info">
+                                        <div class="transaction-icon green"></div>
+                                        <div class="transaction-details">
+                                            <h4>Investment</h4>
+                                            <p>Today</p>
+                                        </div>
+                                    </div>
+                                    <span class="transaction-amount positive">+$50</span>
+                                </div>
+
+                                <div class="transaction">
+                                    <div class="transaction-info">
+                                        <div class="transaction-icon blue"></div>
+                                        <div class="transaction-details">
+                                            <h4>Netflix</h4>
+                                            <p>Yesterday</p>
+                                        </div>
+                                    </div>
+                                    <span class="transaction-amount negative">-$15</span>
+                                </div>
+
+                                <div class="transaction">
+                                    <div class="transaction-info">
+                                        <div class="transaction-icon orange"></div>
+                                        <div class="transaction-details">
+                                            <h4>Food</h4>
+                                            <p>2 days ago</p>
+                                        </div>
+                                    </div>
+                                    <span class="transaction-amount negative">-$25</span>
+                                </div>
+                            </div>
+
+                            <!-- Bottom Navigation -->
+                            <div class="bottom-nav">
+                                <div class="nav-items">
+                                    <button class="nav-item active">
+                                        <div class="nav-icon"></div>
+                                    </button>
+                                    <button class="nav-item">
+                                        <div class="nav-icon"></div>
+                                    </button>
+                                    <button class="nav-item">
+                                        <div class="nav-icon"></div>
+                                    </button>
+                                    <button class="nav-item">
+                                        <div class="nav-icon"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Elements -->
+                        <div class="floating-element floating-1"></div>
+                        <div class="floating-element floating-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
